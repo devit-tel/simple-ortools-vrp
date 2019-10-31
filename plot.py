@@ -1,6 +1,5 @@
 import sys
 
-import matplotlib as matplotlib
 import matplotlib.pyplot as plt
 
 

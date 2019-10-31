@@ -1,25 +1,8 @@
 import random
 
 import geopy.distance as calDiff
-import matplotlib.patches as mpatches
-import matplotlib.path as mpath
-import matplotlib.pyplot as plt
 import numpy as np
 import pandas
-
-
-# Load drivers data from file csv
-def loadDrivers():
-    drivers = pandas.read_csv('sample_data/drivers.csv')
-    locationNames = []
-    latList = []
-    lngList = []
-
-    # for index in range(len(drivers)):
-    #     latList.append(float(drivers["lat"][index]))
-    #     lngList.append(float(drivers["lng"][index]))
-
-    return latList, lngList, locationNames
 
 
 def loadRandomDrivers():
